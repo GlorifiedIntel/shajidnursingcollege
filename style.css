@@ -34,7 +34,7 @@ Author Name: ThemeLamp
 	border: none;
 	position: relative;
 	padding: 0;
-	float: right;
+	display: inline-block;
 	padding-right: 50px;
 }
 .header .navbar-nav {
@@ -1838,13 +1838,13 @@ Author Name: ThemeLamp
 	font-size: 14px;
 	line-height: 22px;
 }
-.contact .contact-info p span{}
+
 /*=============================
 	End Contact CSS
 ===============================*/
 
 /*=============================
-	Clinets Slider CSS
+	Clients Slider CSS
 ===============================*/
 .clients {
 	padding: 35px 0;
@@ -1968,7 +1968,7 @@ Author Name: ThemeLamp
 }
 .footer .footer-top {
 	padding: 60px 0 90px;
-	background-image: url('images/clients-bg.jpg');
+	background-color: #20232E;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
