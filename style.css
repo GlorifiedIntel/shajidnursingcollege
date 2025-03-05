@@ -631,7 +631,7 @@ Author Name: ThemeLamp
 	Features CSS 
 =================================*/
 .features {
-	background-image: url('images/feature-bg.jpg');
+	background-color: #202C39;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
