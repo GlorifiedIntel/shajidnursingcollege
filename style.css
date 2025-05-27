@@ -447,6 +447,10 @@ Author Name: Kevin Cross Minchakpu
 .home-slider .owl-item.active .button{
 	animation: fadeInUp 1s  both 1.5s;
 }
+
+.home-shajid-bg {
+	background-color: #124E78;
+}
 /*===============================
 	End Slider CSS 
 =================================*/
@@ -1341,7 +1345,7 @@ Author Name: Kevin Cross Minchakpu
 .cta .cta-image {
 	position: absolute;
 	right: 0;
-	top: -152px;
+	top: -247px;
 }
 /*===============================
 	End Call to Action CSS 
