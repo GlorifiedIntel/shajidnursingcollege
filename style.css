@@ -1313,6 +1313,7 @@ Author Name: Kevin Cross Minchakpu
 .cta {
 	padding-top: 62px;
 	background: #F8F8F8;
+	
 }
 .cta .cta-inner{
 	background-size: cover;
@@ -1352,6 +1353,9 @@ Author Name: Kevin Cross Minchakpu
 	position: absolute;
 	right: 0;
 	top: -247px;
+	width: 100%;
+	object-fit: cover;
+	
 }
 /*===============================
 	End Call to Action CSS 
