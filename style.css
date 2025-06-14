@@ -2280,3 +2280,34 @@ Author Name: Kevin Cross Minchakpu
     .link-column a:hover {
       text-decoration: underline;
     }
+
+.vertical-menu-shajid {
+  width: 400px; 
+}
+
+.vertical-menu-shajid a {
+  background-color: #eee; 
+  color: rgb(78, 76, 76); 
+  display: block; 
+  padding: 12px;
+  text-decoration: none; 
+  border-bottom: 1px solid #555;
+  font-size: 16px;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.vertical-menu-shajid a:hover {
+  background-color: #ccc; 
+}
+
+.vertical-menu-shajid a.active {
+  background-color: #1F5673; 
+  color: white;
+}
+
+.mbakudi {
+	margin-left: 150px;
+	margin-bottom: 50px;
+}
