@@ -94,6 +94,7 @@ Author Name: Kevin Cross Minchakpu
 .header .logo {
 	float: left;
 	margin-top: 30px;
+	margin-right: 25px;
 }
 .header .logo a {
 	font-size: 25px;
@@ -109,6 +110,11 @@ Author Name: Kevin Cross Minchakpu
 	padding: 0;
 	display: inline-block;
 	padding-right: 50px;
+	font-family: "Play", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	
+
 }
 .header .navbar-nav {
 	display: block;
@@ -123,7 +129,7 @@ Author Name: Kevin Cross Minchakpu
 }
 .header .nav li a {
 	color: #252525;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: uppercase;
 	padding: 30px 0px;
 	display: block;
@@ -2049,6 +2055,10 @@ Author Name: Kevin Cross Minchakpu
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	font-family: "Play", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+
 }
 .footer .footer-top:before{
 	opacity:0.9;
@@ -2187,6 +2197,10 @@ Author Name: Kevin Cross Minchakpu
 }
 .footer .copyright p {
 	color: #aaa;
+	font-family: "Play", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+
 }
 .footer .copyright a:hover{
 	color:#fff;
