@@ -2308,6 +2308,17 @@ Author Name: Kevin Cross Minchakpu
 }
 
 .mbakudi {
-	margin-left: 150px;
+	margin-left: 50px;
 	margin-bottom: 50px;
 }
+
+.mission {
+  font-family: "Arial", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
