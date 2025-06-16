@@ -94,7 +94,7 @@ Author Name: Kevin Cross Minchakpu
 .header .logo {
 	float: left;
 	margin-top: 30px;
-	margin-right: 25px;
+	
 }
 .header .logo a {
 	font-size: 25px;
@@ -109,7 +109,7 @@ Author Name: Kevin Cross Minchakpu
 	position: relative;
 	padding: 0;
 	display: inline-block;
-	padding-right: 50px;
+	padding-right: 40px;
 	font-family: "Play", sans-serif;
   	font-weight: 400;
   	font-style: normal;
@@ -122,7 +122,7 @@ Author Name: Kevin Cross Minchakpu
 .header .nav li {
 	float: left;
 	position: relative;
-	margin-right: 25px;
+	margin-right: 20px;
 }
 .header .nav li:last-child{
 	margin-right:0px;
