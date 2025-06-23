@@ -2392,3 +2392,21 @@ blockquote span{
   margin-bottom: 50px;
 
 }
+
+.tuition-box {
+  min-width: 120px;
+  border-radius: 8px;
+}
+
+h2 small {
+  font-size: 0.7em;
+  display: block;
+}
+
+.Shajid-bg {
+	background-color: #204E4A;
+}
+
+.Shajid-bg-2 {
+	border: 1px solid #204E4A;
+}
