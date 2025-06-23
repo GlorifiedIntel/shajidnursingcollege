@@ -2250,8 +2250,6 @@ Author Name: Kevin Cross Minchakpu
 	margin-bottom: 30px;
 }
 
-
-
     .link-container {
       display: flex;
       gap: 50px;
@@ -2282,7 +2280,7 @@ Author Name: Kevin Cross Minchakpu
     }
 
 .vertical-menu-shajid {
-  width: 400px; 
+  width: 370px; 
 }
 
 .vertical-menu-shajid a {
@@ -2324,4 +2322,73 @@ Author Name: Kevin Cross Minchakpu
 
 .provost {
 	color: #be0761;
+}
+
+blockquote {
+  margin: 0 0 1rem;
+}
+
+blockquote{
+  font-size: 1.4em;
+  width:100%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#555454;
+  font-style: normal;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  margin-top:1em;
+}
+
+.nephi-2 {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4d5154;
+  text-align: justify;
+}
+
+.mission-title {
+	font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nephi {
+  font-size: 19px;
+  color: #747171;
+}
+
+.shajid-subtitle {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
 }
