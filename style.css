@@ -2428,3 +2428,134 @@ h2 small {
 .Shajid-card-title {
 	font-family: 'Play', sans-serif;
 }
+
+.intro h1 {
+  font-size: 2.5rem;
+  color: #173247;
+  margin-bottom: 10px;
+}
+
+.intro .underline {
+  border-bottom: 3px solid #1abc9c;
+}
+
+.intro p {
+  color: #555;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.how-to-apply {
+  flex: 1;
+  min-width: 300px;
+}
+
+.how-to-apply h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #173247;
+}
+
+.step-content h4 {
+  margin: 0 0 5px;
+  font-size: 1.1rem;
+  color: #173247;
+}
+
+.step-content p {
+  margin: 0;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.requirements {
+  flex: 1;
+  min-width: 300px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.requirements h2 {
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+  color: #173247;
+}
+
+.req-item {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.icon-box {
+  background-color: #e6f4ee;
+  color: #0a996d;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.req-item h4 {
+  margin: 0;
+  color: #173247;
+  font-size: 1.1rem;
+}
+
+.req-item p {
+  margin: 3px 0 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.circle {
+  background-color: #0a996d;
+  color: #fff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-weight: bold;
+  margin-right: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Vertical line connecting steps */
+.step::before {
+  content: '';
+  position: absolute;
+  left: 42px; /* aligns with the center of the circle */
+  top: 0;
+  bottom: -30px; /* extend line below this step */
+  width: 2px;
+  background-color: #3dbd96;
+  z-index: 0;
+}
+
+/* Remove line after the last step */
+.step:last-child::before {
+  display: none;
+}
