@@ -2586,7 +2586,7 @@ h2 small {
       color: #0f2d3f;
     }
 
-    .card p {
+    .shajid-card p {
       margin: 0;
       font-weight: bold;
       color: #0a996d;
@@ -2686,3 +2686,81 @@ h2 small {
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 15px;
 	}
+
+/* Programs Section */
+.programs-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  gap: 40px;
+  background-color: #fff;
+}
+
+.image-section img {
+  width: 100%;
+  width: 700px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.content-section {
+  max-width: 550px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #d3f0e3;
+  color: #219d74;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.content-section h1 {
+  font-size: 32px;
+  color: #243b55;
+  margin-bottom: 16px;
+}
+
+.content-section p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.shajid-features {
+  list-style: none;
+  padding: 0;
+  background-color: #fff;
+}
+
+.shajid-features li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.shajid-features i {
+  color: #2bb673;
+  margin-right: 10px;
+}
+
+.read-more-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #056470;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: #b38300;
+  color: #333;
+}
