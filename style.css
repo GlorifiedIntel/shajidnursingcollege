@@ -2464,7 +2464,7 @@ h2 small {
 }
 
 .step-content h4 {
-  margin: 0 0 5px;
+  
   font-size: 1.1rem;
   color: #173247;
 }
@@ -2520,47 +2520,19 @@ h2 small {
   font-size: 0.95rem;
 }
 
-.step {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 30px;
-  position: relative;
-  padding-left: 20px;
-}
-
-.circle {
-  background-color: #0a996d;
-  color: #fff;
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  text-align: center;
-  line-height: 15px;
+.step-circle {
+  width: 4rem;
+  height: 4rem;
+  background-color: #044e53; 
+  color: white;
+  font-size: 1.75rem;
   font-weight: bold;
-  margin-right: 15px;
-  position: relative;
-  z-index: 1;
-}
-
-/* Vertical line connecting steps */
-.step::before {
-  content: '';
-  position: absolute;
-  left: 55px; 
-  top: 0;
-  bottom: -30px; 
-  width: 2px;
-  background-color: #3dbd96;
-  z-index: 0;
-}
-
-/* Remove line after the last step */
-.step:last-child::before {
-  display: none;
-}
-
-.step::after {
-  display: none !important;
+  border-radius: 50%;
+  border: 4px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem; 
 }
 
 .admissions-wrapper {
