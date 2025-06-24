@@ -2497,16 +2497,15 @@ h2 small {
 }
 
 .icon-box {
-  background-color: #e6f4ee;
   color: #0a996d;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 50px;
-  min-height: 50px;
+  min-width: 90px;
+  min-height: 90px;
 }
 
 .req-item h4 {
@@ -2533,23 +2532,23 @@ h2 small {
   background-color: #0a996d;
   color: #fff;
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
+  width: 70px;
+  height: 70px;
   text-align: center;
-  line-height: 45px;
+  line-height: 15px;
   font-weight: bold;
   margin-right: 15px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 /* Vertical line connecting steps */
 .step::before {
   content: '';
   position: absolute;
-  left: 42px; /* aligns with the center of the circle */
+  left: 55px; 
   top: 0;
-  bottom: -30px; /* extend line below this step */
+  bottom: -30px; 
   width: 2px;
   background-color: #3dbd96;
   z-index: 0;
@@ -2559,3 +2558,159 @@ h2 small {
 .step:last-child::before {
   display: none;
 }
+
+.step::after {
+  display: none !important;
+}
+
+.admissions-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
+}
+
+.left-column {
+  flex: 1;
+  min-width: 45%;
+}
+
+.right-column {
+	flex: 1;
+	min-width: 45%;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    /* Admission Deadlines */
+    .deadlines {
+      margin-top: 0;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .shajid-card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      border-top: 3px solid #0a996d;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card h4 {
+      margin: 0 0 10px;
+      color: #0f2d3f;
+    }
+
+    .card p {
+      margin: 0;
+      font-weight: bold;
+      color: #0a996d;
+    }
+
+    /* Request Form */
+    .right-column input,
+    .right-column select,
+    .right-column textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    .right-column button {
+      background-color: #0a996d;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .right-column button:hover {
+      background-color: #088f60;
+    }
+
+   .cta-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+    }
+
+    .cta-box {
+      flex: 1;
+      padding: 40px 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    .visit-campus {
+      background-color: #dde3e5;
+    }
+
+    .ready-apply {
+      background-color: #d8eee8;
+    }
+
+    .cta-icon {
+      font-size: 36px;
+      color: #0a996d;
+      margin-bottom: 10px;
+    }
+
+    .cta-box h3 {
+      margin: 10px 0;
+      color: #1d3444;
+      font-size: 22px;
+    }
+
+    .cta-box p {
+      max-width: 400px;
+      margin: 0 auto 20px;
+      color: #333;
+    }
+
+    .cta-box a {
+      display: inline-block;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    .visit-campus a {
+      background-color: #2c3e50;
+      color: white;
+    }
+
+    .ready-apply a {
+      background-color: #0a996d;
+      color: white;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 768px) {
+      .cta-section {
+        flex-direction: column;
+      }
+    }
+
+	.helaman {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 15px;
+	}
