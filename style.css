@@ -2875,3 +2875,108 @@ h2 small {
 	font-size: 16px;
 	color: #555;
 }
+
+/* Student Life Section End */
+
+/* Faculty Staff Section */
+
+.department-card {
+  background-color: #ffffff;        
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  max-width: 900px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.department-card h2 {
+  color: #2c3e50;                  
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
+.department-card p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.faculty-pill {
+	width: 250px;
+	margin-right: 20px;
+}
+
+/* Container */
+.faculty-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Individual Card */
+.faculty-card {
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.faculty-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image */
+.faculty-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+/* Name */
+.faculty-card h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #2c3e50;
+}
+
+/* Title */
+.faculty-card .title {
+  color: #555;
+  font-size: 0.95rem;
+  margin: 4px 0 12px;
+}
+
+/* Tags */
+.faculty-card .tags {
+  margin-bottom: 12px;
+}
+
+.faculty-card .tags span {
+  background-color: #d4f5e9;
+  color: #007f5f;
+  padding: 6px 10px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  margin: 4px;
+  display: inline-block;
+}
+
+/* Links */
+.faculty-card .links a {
+  display: inline-block;
+  margin: 6px 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.faculty-card .links a i {
+  margin-right: 5px;
+}
