@@ -2764,3 +2764,114 @@ h2 small {
   background-color: #b38300;
   color: #333;
 }
+
+
+
+/* Student Life Section */
+
+.shajid-campus-info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #f7fafa;
+  flex-wrap: wrap;
+}
+
+.shajidcard {
+  background-color: #ffffff;
+  width: 250px;
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.shajidcard:hover {
+  transform: translateY(-5px);
+}
+
+.shajid-icon-container {
+  background-color: #e0f4ef;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #00794f;
+}
+
+.shajid-icon-container.active {
+  background-color: #00794f;
+  color: #ffffff;
+}
+
+.shajid-title {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #1d3557;
+}
+
+.shajid-subtext {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+/* Style tab links */
+.shajid-tablink {
+  background-color: #2B4570;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.shajid-tablink:hover {
+  background-color: #fac069;
+  color: #121212;
+}
+
+.shajid-tablink .active {
+  background-color: #007C77 !important;
+  color: whitesmoke;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #333;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Calendar {background-color: white;}
+#Athletics {background-color: white;}
+#Activities {background-color: white;}
+#Housing {background-color: white;}
+
+.shajid-underline {
+	color: #088f60;
+	text-decoration: underline;
+	
+}
+
+.student-life-title {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.small-title {
+	font-family: "Play", sans-serif;
+	font-size: 16px;
+	color: #555;
+}
