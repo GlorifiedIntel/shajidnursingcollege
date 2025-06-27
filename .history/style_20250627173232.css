@@ -3191,8 +3191,6 @@ h2 small {
       border-radius: 6px;
       cursor: pointer;
       transition: background-color 0.3s ease, transform 0.2s ease;
-	  margin: 0 auto;
-	  margin-top: 20px;
 	}
 
 	.get-in-touch:hover {
