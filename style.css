@@ -2990,7 +2990,7 @@ h2 small {
 
 /* Basic Nursing Program Section */
 
-.nursing-objectives-section {
+.nursing-objectives-section, .midwifery-objectives-section {
   background-color: #f8f9fa;
   padding: 50px 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -3122,11 +3122,11 @@ h2 small {
 	color: #034748;
 }
 
-   .nursing-section {
+   .nursing-section, .midwifery-section {
       margin-bottom: 25px;
     }
 
-    .nursing-section i {
+    .nursing-section i, .midwifery-section i {
       color: green;
       margin-right: 8px;
     }
@@ -3137,7 +3137,7 @@ h2 small {
 
     
 
-    .nursing-contact {
+    .nursing-contact, .midwifery-contact {
       background: #f1f1f1;
       padding: 15px;
       border-radius: 8px;
@@ -3169,7 +3169,7 @@ h2 small {
       cursor: pointer;
       transition: background-color 0.3s ease, transform 0.2s ease;
 	  margin-bottom: 20px;
-	  margin-left: 100px;
+	  margin-left: 200px;
 	}
 
 	.apply-btn:hover {
