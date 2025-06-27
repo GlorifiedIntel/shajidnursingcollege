@@ -956,7 +956,8 @@ Author Name: Kevin Cross Minchakpu
 .register-today .form-title p {
 	color: #555;
 }
-
+.register-today .form {
+}
 .register-today .form-group {
 	position: relative;
 	margin-bottom: 20px;
@@ -1192,7 +1193,7 @@ Author Name: Kevin Cross Minchakpu
 	color:#fff;
 }
 /* Archive */
-
+.teachers.archive{}
 .teachers.archive .single-teacher {
 	margin: 30px 0 30px;
 }
