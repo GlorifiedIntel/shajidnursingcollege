@@ -3122,11 +3122,11 @@ h2 small {
 	color: #034748;
 }
 
-   .nursing-section, .midwifery-section {
+   .nursing-section, .midwifery-section, .community-section {
       margin-bottom: 25px;
     }
 
-    .nursing-section i, .midwifery-section i {
+    .nursing-section i, .midwifery-section i, .community-section i {
       color: green;
       margin-right: 8px;
     }
@@ -3137,7 +3137,7 @@ h2 small {
 
     
 
-    .nursing-contact, .midwifery-contact {
+    .nursing-contact, .midwifery-contact, .community-contact {
       background: #f1f1f1;
       padding: 15px;
       border-radius: 8px;
