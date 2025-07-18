@@ -3201,3 +3201,21 @@ h2 small {
 	  transform: translateY(-2px);
 	  color: #333;
 	}
+
+	/**********Nursing Page ***********/
+
+.shajid-card-footer {
+	background-color:#0d3b66;
+	padding: 10px;
+}
+
+.shajid-card-footer a {
+	color: whitesmoke;
+	font-size: 15px;
+}
+
+.shajid-card-footer a:hover {
+	color: orange;
+	font-size: 15px;
+	text-decoration: underline;
+}
