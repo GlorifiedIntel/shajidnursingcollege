@@ -3226,43 +3226,6 @@ h2 small {
 
 /* Handbook Section */
 
-.handbook-section {
-  background-color: #fefefe;
-  padding: 40px 20px;
-  font-family: 'Georgia', serif;
-  color: #333;
-  border-bottom: 1px solid #ddd;
-}
-
-.handbook-section .container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.handbook-section h2 {
-  font-size: 1.8em;
-  color: #004080;
-  border-bottom: 2px solid #004080;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-}
-
-.handbook-section p {
-  font-size: 1.05em;
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
-
-.handbook-section ul {
-  padding-left: 20px;
-  list-style: disc;
-  margin-bottom: 20px;
-}
-
-.handbook-section li {
-  margin-bottom: 10px;
-}
-
 .toc-section {
   background-color: #ffffff;
   padding: 40px 20px;
@@ -3350,14 +3313,7 @@ h2 small {
 }
 
 .subsection ul li {
-  font-size: 1.5em;
+  font-size: 1.2em;
   line-height: 1.5;
   color: #555;
-}
-
-.shajid-list {
-	 font-size: 1.5em;
-  line-height: 1.5;
-  color: #555;
-  margin-left: 50px;
 }
