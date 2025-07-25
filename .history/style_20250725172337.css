@@ -3308,7 +3308,6 @@ h2 small {
   color: #006699;
   margin-top: 20px;
   font-size: 17px;
-  text-align: left;
 }
 
 
@@ -3387,24 +3386,4 @@ h2 small {
 .subsection p {
   margin-bottom: 15px;
   line-height: 1.6;
-}
-
-.academic-calendar {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  font-size: 15px;
-}
-
-.academic-calendar th,
-.academic-calendar td {
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: left;
-}
-
-.academic-calendar th {
-  background-color: #f2f2f2;
-  font-weight: bold;
 }
