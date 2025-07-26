@@ -2837,9 +2837,9 @@ h2 small {
 }
 
 .shajid-section h2 {
-  font-size: 25px;
+  font-size: 23px;
   text-transform: uppercase;
-  color: #333;
+  color: #0a669b;
   margin-bottom: 10px;
 }
 
@@ -3402,4 +3402,119 @@ h2 small {
 .shajid-table th {
   background-color: #f0f0f0;
   font-weight: bold;
+}
+
+/*student life & engagement*/
+
+.student-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 40px;
+  text-align: center;
+}
+
+.shajid-feature {
+  flex: 1 1 200px;
+  max-width: 250px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.shajid-feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.student-icon {
+  font-size: 4rem;
+  color: #066858;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.shajid-feature:hover .student-icon {
+  transform: scale(1.2) rotate(5deg);
+  color: #0c475e;
+  animation: pulse 0.8s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.shajid-feature h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #006b59;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.shajid-feature:hover h3 {
+  color: #004d40;
+  text-decoration: underline;
+}
+
+.shajid-feature p {
+  font-size: 14px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.shajid-feature:hover p {
+  color: #555;
+}
+
+.shajid-column-left {
+  float: left;
+  width: 20%;
+}
+
+.shajid-column-right {
+  float: left;
+  width: 80%;
+  
+}
+
+
+
+.shajid-vertical-menu {
+  width: 280px; 
+   
+}
+
+.shajid-vertical-menu a {
+  background-color: #eee; 
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none; 
+}
+
+.shajid-vertical-menu a:hover {
+  background-color: #ccc; 
+}
+
+.shajid-vertical-menu a.active {
+  background-color: #1F5673; 
+  color: white;
+}
+
+.shajid-container {
+  width: 100%;
+  margin-left: 50px;
+  
 }
