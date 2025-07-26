@@ -2242,6 +2242,14 @@ Author Name: Kevin Cross Minchakpu
 	margin-bottom: 20px;
 }
 
+.shajid-section-title {
+  font-weight: bold;
+  color: #073952;
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: left;
+}
+
 .shajid-paragraph {
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: justify;
@@ -2767,120 +2775,93 @@ h2 small {
 
 /* Student Life Section */
 
-.shajid-campus-info {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 40px;
-  background-color: #f7fafa;
-  flex-wrap: wrap;
-}
-
-.shajidcard {
-  background-color: #ffffff;
-  width: 250px;
-  padding: 30px 20px;
-  border-radius: 12px;
-  text-align: center;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
-}
-
-.shajidcard:hover {
-  transform: translateY(-5px);
-}
-
-.shajid-icon-container {
-  background-color: #e0f4ef;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin: 0 auto 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  color: #00794f;
-}
-
-.shajid-icon-container.active {
-  background-color: #00794f;
-  color: #ffffff;
-}
-
-.shajid-title {
-  font-size: 18px;
-  margin: 10px 0 5px;
-  color: #1d3557;
-}
-
-.shajid-subtext {
-  font-size: 14px;
-  color: #6c757d;
-}
-
-/* Style tab links */
-.shajid-tablink {
-  background-color: #2B4570;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
+.shajid-breadcrumb {
   font-size: 17px;
-  width: 23%;
-  margin-right: 5px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  font-family: 'Play', sans-serif;
 }
 
-.shajid-tablink:hover {
-  background-color: #fac069;
-  color: #121212;
-}
-
-.shajid-tablink .active {
-  background-color: #007C77 !important;
-  color: whitesmoke;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: #333;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
- 
-}
-
-.tab-gap {
+.shajid-main-content {
   display: flex;
-  gap: 10px; 
+  gap: 40px;
+  margin-top: 50px;
 }
 
-#Calendar {background-color: white;}
-#Athletics {background-color: white;}
-#Activities {background-color: white;}
-#Housing {background-color: white;}
-
-.shajid-underline {
-	color: #088f60;
-	text-decoration: underline;
-	
+.shajid-sidebar {
+  flex: 0 0 280px;
 }
 
-.student-life-title {
-  font-family: "Play", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
+.shajid-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.small-title {
-	font-family: "Play", sans-serif;
-	font-size: 16px;
-	color: #555;
+.shajid-sidebar li {
+  font-weight: bold;
+  margin: 16px 0;
+  color: #004167;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-family: 'Play', sans-serif;
 }
 
+.shajid-sidebar li.active {
+  color: #207234;
+}
+
+.shajid-sidebar li:hover {
+  text-decoration: underline;
+}
+
+.shajid-content {
+  flex: 1;
+}
+
+.shajid-content h1 {
+  font-size: 28px;
+  color: #003e67;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.shajid-content hr {
+  margin: 10px 0 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.shajid-section {
+  margin-bottom: 30px;
+}
+
+.shajid-section h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.shajid-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+.link {
+  color: #004167;
+  font-weight: bold;
+}
+
+.link:hover {
+ text-decoration: underline;
+}
+
+.link::after {
+  content: '';
+}
 
 /* Student Life Section End */
 
@@ -3003,7 +2984,7 @@ h2 small {
 }
 
 .section-title {
-  text-align: left;
+  text-align: center;
   font-size: 2rem;
   margin-bottom: 10px;
   color: #0d3b66;
