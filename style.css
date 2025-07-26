@@ -3364,7 +3364,7 @@ h2 small {
 }
 
 .shajid-list {
-	 font-size: 1.5em;
+  font-size: 1.5em;
   line-height: 1.5;
   color: #555;
   margin-left: 50px;
@@ -3406,5 +3406,26 @@ h2 small {
 
 .academic-calendar th {
   background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.shajid-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+
+.shajid-table th,
+.shajid-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.shajid-table th {
+  background-color: #f0f0f0;
   font-weight: bold;
 }
