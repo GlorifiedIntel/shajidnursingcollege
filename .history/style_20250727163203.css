@@ -2796,6 +2796,7 @@ h2 small {
 
 .shajid-sidebar {
   flex: 0 0 280px;
+  gap: 10px;
 }
 
 .shajid-sidebar ul {
@@ -2820,7 +2821,8 @@ h2 small {
 }
 
 .shajid-sidebar li a:hover {
- 		text-decoration: underline;
+ 
+  text-decoration: underline;
 }
 
 .shajid-content {

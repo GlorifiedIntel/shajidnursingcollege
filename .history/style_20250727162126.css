@@ -94,6 +94,7 @@ Author Name: Kevin Cross Minchakpu
 .header .logo {
 	float: left;
 	margin-top: 30px;
+	margin-right: 10px;
 	
 }
 .header .logo a {
@@ -1966,7 +1967,7 @@ Author Name: Kevin Cross Minchakpu
 	transform:scale(0.9);
 }
 /*=============================
-	End Clinets Slider CSS
+	End Clients Slider CSS
 ===============================*/
 
 /*======================================
@@ -2005,6 +2006,9 @@ Author Name: Kevin Cross Minchakpu
 	font-size: 34px;
 	font-weight: 700;
 	margin-top: 5px;
+	font-family: 'Play', sans-serif;
+  	font-weight: 700;
+  	font-style: normal;
 }
 .breadcrumbs p {
 	color: #ccc;
@@ -2020,6 +2024,9 @@ Author Name: Kevin Cross Minchakpu
 	display: inline-block;
 	position: relative;
 	margin-right: 10px;
+	font-family: 'Play', sans-serif;
+	
+  	
 }
 .breadcrumbs ul li:last-child{
 	margin:0;
@@ -2239,6 +2246,14 @@ Author Name: Kevin Cross Minchakpu
 	font-size: 30px;
 	font-weight: 700;
 	margin-bottom: 20px;
+}
+
+.shajid-section-title {
+  font-weight: bold;
+  color: #073952;
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: left;
 }
 
 .shajid-paragraph {
@@ -2766,120 +2781,93 @@ h2 small {
 
 /* Student Life Section */
 
-.shajid-campus-info {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 40px;
-  background-color: #f7fafa;
-  flex-wrap: wrap;
-}
-
-.shajidcard {
-  background-color: #ffffff;
-  width: 250px;
-  padding: 30px 20px;
-  border-radius: 12px;
-  text-align: center;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
-}
-
-.shajidcard:hover {
-  transform: translateY(-5px);
-}
-
-.shajid-icon-container {
-  background-color: #e0f4ef;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin: 0 auto 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  color: #00794f;
-}
-
-.shajid-icon-container.active {
-  background-color: #00794f;
-  color: #ffffff;
-}
-
-.shajid-title {
-  font-size: 18px;
-  margin: 10px 0 5px;
-  color: #1d3557;
-}
-
-.shajid-subtext {
-  font-size: 14px;
-  color: #6c757d;
-}
-
-/* Style tab links */
-.shajid-tablink {
-  background-color: #2B4570;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
+.shajid-breadcrumb {
   font-size: 17px;
-  width: 23%;
-  margin-right: 5px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  font-family: 'Play', sans-serif;
 }
 
-.shajid-tablink:hover {
-  background-color: #fac069;
-  color: #121212;
-}
-
-.shajid-tablink .active {
-  background-color: #007C77 !important;
-  color: whitesmoke;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: #333;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
- 
-}
-
-.tab-gap {
+.shajid-main-content {
   display: flex;
-  gap: 10px; 
+  gap: 40px;
+  margin-top: 50px;
 }
 
-#Calendar {background-color: white;}
-#Athletics {background-color: white;}
-#Activities {background-color: white;}
-#Housing {background-color: white;}
-
-.shajid-underline {
-	color: #088f60;
-	text-decoration: underline;
-	
+.shajid-sidebar {
+  flex: 0 0 280px;
 }
 
-.student-life-title {
-  font-family: "Play", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-
+.shajid-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.small-title {
-	font-family: "Play", sans-serif;
-	font-size: 16px;
-	color: #555;
+.shajid-sidebar li {
+  font-weight: bold;
+  margin: 16px 0;
+  color: #252627;
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-family: 'Play', sans-serif;
 }
 
+.shajid-sidebar li.active {
+  color: #207234;
+}
+
+.shajid-sidebar li:hover {
+  text-decoration: underline;
+}
+
+.shajid-content {
+  flex: 1;
+}
+
+.shajid-content h1 {
+  font-size: 28px;
+  color: #003e67;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.shajid-content hr {
+  margin: 10px 0 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.shajid-section {
+  margin-bottom: 30px;
+}
+
+.shajid-section h2 {
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #0a669b;
+  margin-bottom: 10px;
+}
+
+.shajid-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+
+.link {
+  color: #004167;
+  font-weight: bold;
+}
+
+.link:hover {
+ text-decoration: underline;
+}
+
+.link::after {
+  content: '';
+}
 
 /* Student Life Section End */
 
@@ -3006,6 +2994,7 @@ h2 small {
   font-size: 2rem;
   margin-bottom: 10px;
   color: #0d3b66;
+  font-weight: bold;
 }
 
 .intro-text {
@@ -3122,11 +3111,11 @@ h2 small {
 	color: #034748;
 }
 
-   .nursing-section {
+   .nursing-section, .midwifery-section, .community-section {
       margin-bottom: 25px;
     }
 
-    .nursing-section i {
+    .nursing-section i, .midwifery-section i, .community-section i {
       color: green;
       margin-right: 8px;
     }
@@ -3137,7 +3126,7 @@ h2 small {
 
     
 
-    .nursing-contact {
+    .nursing-contact, .midwifery-contact, .community-contact {
       background: #f1f1f1;
       padding: 15px;
       border-radius: 8px;
@@ -3155,7 +3144,7 @@ h2 small {
 		color: #198754;
 	}
 
-	.apply-btn {
+	.apply-btn  {
 	  display: block;
 	  width: 250px;
       padding: 16px;
@@ -3169,7 +3158,7 @@ h2 small {
       cursor: pointer;
       transition: background-color 0.3s ease, transform 0.2s ease;
 	  margin-bottom: 20px;
-	  margin-left: 100px;
+	  margin-left: 200px;
 	}
 
 	.apply-btn:hover {
@@ -3177,3 +3166,550 @@ h2 small {
       transform: translateY(-2px);
 	  color: #333;
     }
+
+	/* Get in Touch Button */
+	.get-in-touch {
+	  display: block;
+	  width: 250px;
+      padding: 16px;
+      background-color: #19518d;
+      color: #fff;
+      text-decoration: none;
+	  text-align: center;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+	  margin: 0 auto;
+	  margin-top: 20px;
+	}
+
+	.get-in-touch:hover {
+	  background-color: #b37400;
+	  transform: translateY(-2px);
+	  color: #333;
+	}
+
+	/**********Nursing Page ***********/
+
+.shajid-card-footer {
+	background-color:#0d3b66;
+	padding: 10px;
+}
+
+.shajid-card-footer a {
+	color: whitesmoke;
+	font-size: 15px;
+}
+
+.shajid-card-footer a:hover {
+	color: orange;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+
+/* Nursing Program Section End */
+
+/* Handbook Section */
+
+.handbook-section {
+  background-color: #fefefe;
+  padding: 40px 20px;
+  font-family: 'Georgia', serif;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.handbook-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.handbook-section h2 {
+  font-size: 1.8em;
+  color: #004080;
+  border-bottom: 2px solid #004080;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.handbook-section p {
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.handbook-section ul {
+  padding-left: 20px;
+  list-style: disc;
+  margin-bottom: 20px;
+}
+
+.handbook-section li {
+  margin-bottom: 10px;
+}
+
+/* Table of Contents Styles */
+.toc-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 40px;
+}
+
+.toc-section h2 {
+  font-size: 28px;
+  color: #004080;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 5px;
+}
+
+.toc-list {
+  list-style: none;
+  padding-left: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.toc-list > li {
+  margin-top: 10px;
+}
+
+.toc-list li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.toc-list li a:hover {
+  color: #004080;
+  text-decoration: underline;
+}
+
+
+.handbook-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  font-family: 'Georgia', serif;
+  color: #333;
+}
+
+.handbook-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.handbook-section h2 {
+  font-size: 2em;
+  color: #004080;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.handbook-section .subsection {
+  margin-bottom: 30px;
+}
+
+.handbook-section h3 {
+  font-size: 1.4em;
+  color: #0066cc;
+  margin-bottom: 10px;
+}
+
+.handbook-section p {
+  font-size: 1.5em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.handbook-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.handbook-section li {
+  margin-bottom: 5px;
+}
+
+.subsection ul li {
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #555;
+}
+
+.shajid-list {
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #555;
+  margin-left: 50px;
+}
+
+.subsection h3 {
+  font-size: 1.4em;
+  color: #004080;
+  margin-top: 25px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.subsection ul {
+  padding-left: 20px;
+  margin-top: 10px;
+  list-style-type: disc;
+}
+
+.subsection p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.academic-calendar {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.academic-calendar th,
+.academic-calendar td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.academic-calendar th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.shajid-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+
+.shajid-table th,
+.shajid-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.shajid-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+/*student life & engagement*/
+
+.student-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 40px;
+  text-align: center;
+}
+
+.shajid-feature {
+  flex: 1 1 200px;
+  max-width: 250px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.shajid-feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.student-icon {
+  font-size: 4rem;
+  color: #066858;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.shajid-feature:hover .student-icon {
+  transform: scale(1.2) rotate(5deg);
+  color: #0c475e;
+  animation: pulse 0.8s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.shajid-feature h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #006b59;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.shajid-feature:hover h3 {
+  color: #004d40;
+  text-decoration: underline;
+}
+
+.shajid-feature p {
+  font-size: 14px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.shajid-feature:hover p {
+  color: #555;
+}
+
+.shajid-column-left {
+  float: left;
+  width: 20%;
+  margin-right: 80px;
+}
+
+.shajid-column-right {
+  float: left;
+  width: 70%;
+  
+}
+
+.shajid-vertical-menu {
+  width: 280px; 
+  margin-left: 50px;
+}
+
+.shajid-vertical-menu a {
+  background-color: #eee; 
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none; 
+}
+
+.shajid-vertical-menu a:hover {
+  background-color: #ccc; 
+}
+
+.shajid-vertical-menu a.active {
+  background-color: #1F5673; 
+  color: white;
+}
+
+.shajid-container {
+  width: 100%;
+  margin-top: 30px;
+ 
+}
+
+/*=============================
+	Student life
+===============================*/
+
+/*=============================
+	Housing & Dining CSS
+===============================*/
+
+.dashboard-actions {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.action-item {
+  text-align: center;
+  max-width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.icon {
+  font-size: 50px;
+  color: #032B43;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.action-item:hover .icon {
+  transform: scale(1.2);
+}
+
+.action-item h3 {
+  color: #00796b;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  line-height: 1.3;
+}
+
+.action-item h3:hover {
+  text-decoration: underline;
+}
+
+
+.action-item p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.rcp-section {
+  background-color: #f1f1f2;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.rcp-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1100px;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.rcp-image img {
+  width: 400px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.rcp-content {
+  max-width: 500px;
+}
+
+.rcp-content h2 {
+  color: #00796b;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.rcp-content p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.learn-more {
+  color: #086e4c;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.learn-more i {
+  margin-left: 6px;
+}
+
+.learn-more:hover {
+  color: #033a31;
+  text-decoration: underline;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.info-column {
+  max-width: 300px;
+}
+
+.info-column h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #37474f;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.info-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-column ul li {
+  margin-bottom: 10px;
+}
+
+.info-column a {
+  text-decoration: none;
+  color: #00796b;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: 16px;
+}
+
+.info-column a:hover {
+  color: #004d40;
+  text-decoration: underline;
+}
+
+.info-column p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.info-column p strong {
+  color: #00796b;
+}
+
+.inline-link {
+  color: #00796b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.inline-link:hover {
+  color: #004d40;
+  text-decoration: underline;
+}
+
+.shajid-navbar {
+  height: 100px;
+  width: 100%;
+}
+
+.shajid-navbar .nav-link {
+  color: #00796b;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.shajid-navbar .nav-link:hover {
+  color: #004d40;
+}

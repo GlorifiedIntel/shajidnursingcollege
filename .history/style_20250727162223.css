@@ -2813,14 +2813,12 @@ h2 small {
   font-family: 'Play', sans-serif;
 }
 
-.shajid-sidebar li.active a {
-	color: #0a669b;
-  	text-decoration: none;
-  	
+.shajid-sidebar li a.active {
+  color: #207234;
 }
 
-.shajid-sidebar li a:hover {
- 		text-decoration: underline;
+.shajid-sidebar li:hover {
+  text-decoration: underline;
 }
 
 .shajid-content {

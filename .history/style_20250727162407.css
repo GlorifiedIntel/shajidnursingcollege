@@ -2807,20 +2807,19 @@ h2 small {
 .shajid-sidebar li a {
   font-weight: bold;
   margin: 16px 0;
+  padding: 5px 10px;
   color: #252627;
   cursor: pointer;
   font-size: 1.3rem;
   font-family: 'Play', sans-serif;
 }
 
-.shajid-sidebar li.active a {
-	color: #0a669b;
-  	text-decoration: none;
-  	
+.shajid-sidebar li a.active {
+  color: #df960f;
 }
 
-.shajid-sidebar li a:hover {
- 		text-decoration: underline;
+.shajid-sidebar li:hover {
+  text-decoration: underline;
 }
 
 .shajid-content {
