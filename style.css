@@ -3761,3 +3761,49 @@ a.text-dark:hover .card-title {
 		margin-left: 30px;
 		
 	}
+
+	.shajid-card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .shajid-card {
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s ease;
+	  border-radius:0;
+    }
+
+    .shajid-card:hover {
+      transform: translateY(-5px);
+	  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .shajid-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .shajid-card-title {
+      padding: 20px;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 900px) {
+      .shajid-card-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .shajid-card-grid {
+        grid-template-columns: 1fr;
+      }
+    }
