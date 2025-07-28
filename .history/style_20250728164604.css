@@ -3744,8 +3744,6 @@ a.text-dark:hover .card-title {
       border-left: 4px solid #003366;
       padding: 1em;
       margin-top: 1em;
-	  font-size: 1.2em;
-	  
     }
 
 	.code-conduct p {
@@ -3754,10 +3752,9 @@ a.text-dark:hover .card-title {
 		margin-bottom: 20px;
 	}
 
-	.shajid-section ol li {
+	.section ul li {
 		font-family: "Roboto", sans-serif;
 		font-size: 16px;
 		margin-bottom: 10px;
-		margin-left: 30px;
-		
+		fon
 	}
