@@ -3770,6 +3770,11 @@ a.text-dark:hover .card-title {
       margin: auto;
     }
 
+	.shajid-card-grid a {
+		color: inherit;
+		text-decoration: none;
+	}
+
     .shajid-card {
       background-color: white;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -3807,3 +3812,21 @@ a.text-dark:hover .card-title {
         grid-template-columns: 1fr;
       }
     }
+
+	/* Code of Conduct Section End */
+
+	/* Honour Code and Related Policies Section */
+
+	.shajid-container-fluid {
+		width: 100%;
+	}
+
+	.honour-code {
+		background-color: #f8f9fa;
+		padding: 40px 20px;
+		text-align: center;
+		color: #555;
+	}
+
+
+
