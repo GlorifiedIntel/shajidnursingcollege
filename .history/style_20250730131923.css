@@ -3834,6 +3834,7 @@ a.text-dark:hover .card-title {
 
 	/*Facts Section*/
 .facts-section {
+	
   padding: 60px 20px;
   background-color: #f9f9f9;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -3882,5 +3883,4 @@ a.text-dark:hover .card-title {
 .fact-card p {
   font-size: 1rem;
   color: #555;
-  font-family: 'Play', sans-serif;
 }
