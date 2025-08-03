@@ -6049,3 +6049,159 @@ a.text-dark:hover .card-title {
    margin-left: 150px;
   
 }
+
+/*================================
+  Tuition Page CSS End
+=================================*/
+
+/*===============================
+  Finances CSS
+=================================*/
+
+.tuition-vertical-menu {
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tuition-vertical-menu a {
+  background-color: #eee; 
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-align: center;
+  text-decoration: none; 
+}
+
+.tuition-vertical-menu a:hover {
+  background-color: #ccc; 
+}
+
+.tuition-vertical-menu a.active {
+  background-color: #2E294E; 
+  color: white;
+}
+
+.tuition-column-right {
+  float: left;
+  width: 70%;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.tuition-column-right p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  font-size: 17px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+}
+
+.tuition-column-right h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #00acc1;
+  padding-bottom: 8px;
+  margin-top: 40px;
+}
+
+.tuition-column-right h3 {
+  font-size: 1.4rem;
+  margin-top: 30px;
+}
+
+
+.tuition-column-right ol {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.tuition-column-right ol li {
+  margin-bottom: 10px;
+}
+
+.tuition-column-right table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.95rem;
+  background-color: #fff;
+}
+
+.tuition-column-right table th,
+.tuition-column-right table td {
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.tuition-column-right table th {
+  background-color: #006064;
+  color: #fff;
+}
+
+.tuition-column-right table tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.tuition-column-right em {
+  font-style: italic;
+  color: #666;
+}
+
+.tuition-column-right strong {
+  font-weight: 600;
+}
+
+.tuition-column-right address {
+  font-style: normal;
+  background-color: #f1f3f3;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.tuition-column-right address a {
+  color: #004d40;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .tuition-column-right {
+    padding: 25px 15px;
+  }
+
+  .tuition-column-right table,
+  .tuition-column-right table thead,
+  .tuition-column-right table tbody,
+  .tuition-column-right table th,
+  .tuition-column-right table td,
+  .tuition-column-right table tr {
+    display: block;
+  }
+
+  .tuition-column-right table th {
+    background-color: #004d40;
+    color: #fff;
+  }
+
+  .tuition-column-right table tr {
+    margin-bottom: 15px;
+  }
+
+  .tuition-column-right table td {
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .tuition-column-right table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    top: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+}
