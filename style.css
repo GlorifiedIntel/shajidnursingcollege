@@ -6118,6 +6118,9 @@ a.text-dark:hover .card-title {
 
 .tuition-column-right ol li {
   margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #555;
 }
 
 .tuition-column-right table {
@@ -6136,7 +6139,7 @@ a.text-dark:hover .card-title {
 }
 
 .tuition-column-right table th {
-  background-color: #006064;
+  background-color: #2E294E;
   color: #fff;
 }
 
