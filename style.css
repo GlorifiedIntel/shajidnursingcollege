@@ -5787,7 +5787,7 @@ a.text-dark:hover .card-title {
 
 .application-left-content {
   flex: 1;
-  min-width: 200px;
+  min-width: 400px;
 }
 
 .application-tagline {
