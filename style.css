@@ -6005,6 +6005,45 @@ a.text-dark:hover .card-title {
 }
 
 /*===============================
-	Application Form CSS 
+	Tuition Page CSS 
 =================================*/
 
+.shajid-container-2 {
+  display: flex;
+  height: 100vh;
+}
+
+.shajid-left-panel {
+  background-color: #081B44;
+  color: white;
+  padding: 60px 40px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shajid-left-panel h1 {
+  font-size: 48px;
+  margin: 0 0 20px;
+  line-height: 1.2;
+  font-family: 'Play', sans-serif;
+}
+
+.shajid-underline {
+  width: 150px;
+  height: 4px;
+  background: linear-gradient(to right, orange, #333);
+  border-radius: 2px;
+}
+
+.shajid-right-panel {
+  width: 60%;
+  position: relative;
+}
+
+.shajid-right-panel img {
+   height: 100%;
+   margin-left: 150px;
+  
+}
