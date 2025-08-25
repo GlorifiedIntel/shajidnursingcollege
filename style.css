@@ -1045,158 +1045,71 @@ Author Name: Kevin Cross Minchakpu
 /*===============================
 	Features CSS 
 =================================*/
-.features {
-	background-color: #202C39;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	padding: 60px 0 90px;
-}
-.features .single-feature {
-	position: relative;
-	text-align: center;
-	margin-top: 30px;
-}
-.features .icon-img {
-	width: 80px;
-	height: 80px;
-	line-height: 80px;
-	border-radius: 100%;
-	position: relative;
-	text-align: center;
-	left: 0;
-	display: inline-block;
-	overflow:hidden;
-}
-.features .icon-img:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 100%;
-	z-index: 3;
-	opacity: 1;
-	-webkit-transition: all 0.3s ease 0s;
-	-moz-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-}
-.features .single-feature:hover .icon-img:before {
-	opacity: 0.5;
-}
-.features .icon-img img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 100%;
-	opacity: 0;
-	visibility: hidden;
-}
-.features .single-feature:hover .icon-img img{
-	opacity:1;
-	visibility:visible;
-	transform:scale(1.2);
-}
-.features .icon-img i {
-	text-align: center;
-	font-size: 25px;
-	color: #fff;
-	z-index: 333;
-	position: relative;
-}
-.features .feature-content .f-title {
-	font-size: 18px;
-	margin: 15px 0;
-	color: #fff;
-}
-.features .feature-content p {
-	line-height: 22px;
-	color: #ccc;
-}
+
+   .features {
+    padding-left: 40px;
+    padding-right: 40px;
+   }
+   .feature-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: left;
+      height: 100%;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .feature-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+    .feature-icon {
+      font-size: 30px;
+      margin-bottom: 15px;
+      display: block;
+      color: #f15a29;
+    }
+    .feature-card h5 {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .feature-card p {
+      color: #555;
+      font-size: 14px;
+    }
+ 
+    .shajid-title {
+      font-weight: bold;
+      margin-bottom: 30px;
+      font-family: 'Play', sans-serif;
+      text-align: center;
+      color: whitesmoke;
+      font-size: 50px;
+      
+    }
 
 /*===============================
   Responsive Features Section
 =================================*/
-
-/* Tablet (≤991px) */
-@media (max-width: 991px) {
-  .features {
-    padding: 40px 0 70px;
-  }
-
-  .features .icon-img {
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-  }
-
-  .features .icon-img i {
-    font-size: 22px;
-  }
-
-  .features .feature-content .f-title {
-    font-size: 17px;
-  }
-
-  .features .feature-content p {
-    font-size: 14px;
-  }
-}
-
-/* Mobile (≤768px) */
 @media (max-width: 768px) {
   .features {
-    padding: 30px 0 60px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-
-  .features .single-feature {
-    margin-top: 20px;
+  .feature-card {
+    padding: 15px;
   }
-
-  .features .icon-img {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+  .feature-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
   }
-
-  .features .icon-img i {
-    font-size: 20px;
-  }
-
-  .features .feature-content .f-title {
+  .feature-card h5 {
     font-size: 16px;
+    margin-bottom: 8px;
   }
-
-  .features .feature-content p {
+  .feature-card p {
     font-size: 13px;
-  }
-}
-
-/* Extra Small Devices (≤576px) */
-@media (max-width: 576px) {
-  .features {
-    padding: 25px 0 50px;
-  }
-
-  .features .icon-img {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-  }
-
-  .features .icon-img i {
-    font-size: 18px;
-  }
-
-  .features .feature-content .f-title {
-    font-size: 15px;
-  }
-
-  .features .feature-content p {
-    font-size: 12.5px;
   }
 }
 
