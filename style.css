@@ -825,6 +825,7 @@ Author Name: Kevin Cross Minchakpu
 }
 .courses .course-body p {
 	color: #666;
+  font-size: 16px;
 }
 .courses .course-meta {
 	background: #fff;
@@ -6120,4 +6121,9 @@ a.text-dark:hover .card-title {
     font-weight: bold;
     white-space: nowrap;
   }
+}
+
+.paragraph {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
